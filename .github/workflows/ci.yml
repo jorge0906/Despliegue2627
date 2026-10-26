@@ -20,4 +20,6 @@ jobs:
 
       - name: Validar HTML (html-validate)
         run: npx html-validate index.html
-   
+        
+      - name: Linting CSS (stylelint)
+        run: npx stylelint "css/**/*.css"
