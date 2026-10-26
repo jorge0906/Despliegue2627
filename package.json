@@ -1,0 +1,12 @@
+{
+  "name": "despliegue2627",
+  "version": "1.0.0",
+  "description": "![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg)\r ![Curso](https://img.shields.io/badge/curso-2026--2027-orange.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
