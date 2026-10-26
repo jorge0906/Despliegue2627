@@ -4,12 +4,14 @@
   "description": "![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg)\r ![Curso](https://img.shields.io/badge/curso-2026--2027-orange.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "jest --testEnvironment=jsdom"  
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
     "stylelint": "^17.16.0",
     "stylelint-config-standard": "^40.0.0"
   }

@@ -35,3 +35,9 @@ form.addEventListener('submit', (e) => {
     : '❌ Credenciales incorrectas.';
   formMsg.style.color = user ? 'green' : 'red';
 });
+
+
+// Exportación para Jest (solo en entorno Node/Testing)
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { validate };
+}
