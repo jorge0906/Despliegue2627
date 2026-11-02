@@ -1,17 +1,20 @@
-import js from "@eslint/js";
-
-export default [
+module.exports = [
   {
     files: ["js/**/*.js"],
     languageOptions: {
       ecmaVersion: "latest",
-      sourceType: "module",
+      sourceType: "script",
       globals: {
         document: "readonly",
         window: "readonly",
-        process: "readonly",
         console: "readonly",
+        module: "readonly",
+        require: "readonly"
       }
     },
+    rules: {
+      "no-unused-vars": "warn",
+      "no-undef": "error"
+    }
   }
 ];
